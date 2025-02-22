@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './homepage.css';
 export default function HomePage(){
     return(
@@ -18,11 +19,17 @@ export default function HomePage(){
             <h2>Your One-Stop Solution</h2>
             <p>We provide the best services to help your business grow.</p>
             <button>Get Started</button>
+               
+            <Link to ="/login" >
+            <button>Login</button> 
+            </Link>
         </section>
 
         <footer>
             <p>&copy; 2025 My Website. All rights reserved.</p>
         </footer>
+
+        <Link to ="/login" >LOGIN</Link>
     </div>
 
     )
