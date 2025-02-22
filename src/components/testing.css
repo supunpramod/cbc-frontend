@@ -1,0 +1,53 @@
+.back{
+    background-color:rgb(109, 179, 173);
+    width:400px;
+    height:220px;
+    border:1px solid black;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    position:relative;
+}
+
+.val{
+    background-color:rgb(179, 27, 158);
+    width:50px;
+    height:50px;
+    border-radius: 10px;
+    font-size:40px;
+    border:none;
+    cursor: pointer;
+    
+    
+}
+
+span{
+    color:rgb(20, 24, 16);
+    font-size:40px;
+}
+
+
+h1{
+    position:absolute;
+    top:0;
+    color:rgb(51, 15, 250);
+}
+
+.button-panel{
+    position: absolute;
+    bottom: 0;
+   
+    
+}
+
+.btn1{
+    color:rgb(0, 0, 0);
+    background-color: blanchedalmond;
+    border: 2px solid rgb(255, 0, 242);
+    width:100px;
+    height:50px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
