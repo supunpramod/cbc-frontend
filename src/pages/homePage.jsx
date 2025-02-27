@@ -29,7 +29,7 @@ export default function HomePage(){
             <p>&copy; 2025 My Website. All rights reserved.</p>
         </footer>
 
-        <Link to ="/login" >LOGIN</Link>
+       
     </div>
 
     )
