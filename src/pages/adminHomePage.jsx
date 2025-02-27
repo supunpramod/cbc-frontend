@@ -20,7 +20,8 @@
 
 
 
-import { Link } from 'react-router-dom';
+import { Link ,Routes, Route} from 'react-router-dom';
+
 import { BsGraphUp, BsBoxSeam, BsCartCheck, BsPeople } from "react-icons/bs";
 
 export default function AdminHomePage() {
@@ -47,7 +48,13 @@ export default function AdminHomePage() {
             
             {/* Main Content */}
             <div className="bg-red-500 w-[80%] h-screen p-6">
-                <h2 className="text-2xl font-semibold">Welcome to Admin Dashboard</h2>
+                <Routes path="/*">
+                <Route path="/dashboard" element={<h1>Dashboard</h1>}/>
+                <Route path="/products" element={<h1>Products</h1>}/>
+                <Route path="/orders" element={<h1>Orders</h1>}></Route>
+                <Route path="/Customers" element={<h1>Customers</h1>}/>
+                <Route path="/*" element={<h1>404 not found the admin page</h1>}/>
+                </Routes>
             </div>
         </div>
     );

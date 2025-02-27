@@ -13,7 +13,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div className=''>
     
      <BrowserRouter>
      <Routes path="/*"> 
@@ -29,7 +29,7 @@ function App() {
      </BrowserRouter>
      
    
-    </>
+    </div>
   )
 }
 
