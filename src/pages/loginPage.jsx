@@ -11,6 +11,7 @@ export default function LoginPage() {
         }).then(
             (res)=>{
                if(res.data.user==null){
+                toast.error(res.data.message)
                 alert(res.data.message)
                 return
                }
